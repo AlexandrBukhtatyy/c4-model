@@ -1,0 +1,3 @@
+System_Boundary(vk, "Вконтакте") {
+  System_Ext(vk_official_api, "Официальный API")
+}

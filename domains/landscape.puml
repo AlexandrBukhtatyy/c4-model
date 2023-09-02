@@ -1,0 +1,13 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+skinparam wrapWidth 300
+LAYOUT_WITH_LEGEND()
+LAYOUT_LANDSCAPE()
+title
+    <b>Arch Repo</b>
+    <i>Lanscape</i>
+end title
+
+System(message_processing_system, "Система обработки сообщений", "Web-интерфейс, публикация постов в соц сетях")
+@enduml
