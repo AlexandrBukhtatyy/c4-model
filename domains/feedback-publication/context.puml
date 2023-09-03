@@ -1,8 +1,10 @@
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-!define actors ../_shared/actors
-!define external_systems ../_shared/external_systems
+!$domains_root_path = ..
+
+!define actors $domains_root_path/_shared/actors
+!define external_systems $domains_root_path/_shared/external_systems
 
 !include external_systems/ok_official_api.iuml
 !include external_systems/vk_official_api.iuml
